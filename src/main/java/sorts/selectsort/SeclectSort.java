@@ -1,4 +1,4 @@
-package selectsort;
+package sorts.selectsort;
 
 public class SeclectSort {
     public static void selectSort(int[] nums){

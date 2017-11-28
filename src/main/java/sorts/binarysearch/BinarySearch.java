@@ -1,4 +1,4 @@
-package binarysearch;
+package sorts.binarysearch;
 
 public class BinarySearch {
     public static int binarySearch(int[] nums, int targer){
@@ -22,7 +22,7 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
-        int[] nums = {11,22,33,44,55,66,77};
+        int[] nums = {11,22,33,44,55,66};
 
        int a= binarySearch(nums,22);
        int b =  binarySearch(nums,44);
