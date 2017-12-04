@@ -29,7 +29,7 @@ public class levelOrderTraversal {
         queue.add(root); //指定元素添加到此列表的末尾
         while (!queue.isEmpty()){
             current = queue.poll();//移除并返问队列头部的元素
-            System.out.println(current.val);
+//            System.out.println(current.val);
             if (current.getLeftNode() != null){
                 queue.add(current.getLeftNode());
             }
@@ -39,7 +39,7 @@ public class levelOrderTraversal {
         }
     }
 
-    public static void main(String[] args) {
-        levelOrder(Node);
-    }
+//    public static void main(String[] args) {
+//        levelOrder(Node);
+//    }
 }
